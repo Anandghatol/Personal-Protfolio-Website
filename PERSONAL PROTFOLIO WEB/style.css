@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  position: absolute;
+  background-color: rgb(199, 194, 194);
+  /* width: 434px; */
+  font-family: "Oswald", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0px;
+}
+
+.sidebar nav li a{
+  text-decoration: none;
+  color: rgb(60, 34, 34);
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.info {
+  /* background-color: rgb(150, 29, 126); */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.devpic img {
+  height: 58vh;
+}
+
+.hello {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreabout {
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 32px;
+}
+.btn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: aliceblue;
+  background-color: rgb(72, 133, 218);
+  font-size :2em;;
+  font-weight: bold;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+
+.btn:hover{
+  color: rgb(72, 133, 218);
+  background-color: aliceblue;
+}
+
+
+
+
+/* contactformcss */
+.contactform{
+  padding: 0 34px;
+  padding-top: 34px;
+  margin-left: 30px;
+
+  font-family: "Oswald", sans-serif;
+}
+
+.contactform h1{
+
+  font-family: "Source Code Pro", monospace;
+  padding: 12px 0;
+}
+
+.contactform form div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input{
+  width: 26vh;
+  border-radius: 6px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailHelp{
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check{
+  flex-direction: row;
+}
+#form-check-input{
+ width: 15px;
+ margin: 2px 2px;
+}
+
+.btn-sm{
+  font-size: 10px;
+  padding: 5px 14px;
+  margin: 17px 0;
+
+}
+
+
+/* blogcss */
+.blogItem{
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.blogContainer h1{
+  font-family: "Oswald", sans-serif;
+  margin: 23px;
+}
+
+.blogItem p{
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro{
+  margin: 74px 0 0 53px;
+}
+.intro h2{
+  font-family: "Oswald", sans-serif;
+  margin: 12px;
+  margin-top: 32px;
+}
+
+
+.intro p{
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+}
+.skillcontainer{
+  padding: 12px;
+}
+.skillitem{
+  display: flex;
+  align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+
+}
+
+.skill{
+  background-color: red;
+  border: 1px solid black;
+  width: 243px;
+  height: 15px;
+  
+  
+}
+.hundered{
+  width: 250px;
+  background-color: blue;
+  
+}
+.fifty{
+  width: 125px;
+  background-color: aqua;
+  
+}
+.t5{
+  width:62.5px;
+  background-color: yellow;
+  
+}
+
+.sidebargo{
+  
+    transform: translate(-443px,0px);
+    position: absolute;
+  
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+  margin-left: 145px;
+}
+@media(max-width:854px){
+  /* *{
+    background-color: red;
+  } */
+  /* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+  } */
+  .devpic{
+    display: none;
+  }
+  .buttons{
+    font-size: 8px;
+  }
+  
+}
